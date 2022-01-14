@@ -1,0 +1,27 @@
+{
+  "name": "leaflet-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilson98bra/leaflet-demo.git"
+  },
+  "author": "Ivanilson Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilson98bra/leaflet-demo/issues"
+  },
+  "homepage": "https://github.com/nilson98bra/leaflet-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "nodemon": "^2.0.15",
+    "wind-js-leaflet": "^2.0.5"
+  }
+}
