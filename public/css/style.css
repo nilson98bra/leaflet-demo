@@ -5,3 +5,17 @@ body{
 }
 
 #map { height: 617px; }
+
+#time-slider-display{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    top: -70px;
+    right: 0px;
+    z-index: 11000000000000000000000000000000000000000000;   
+}
+
+#time-slider-display input[type="range"] {
+    width:400px;
+}
