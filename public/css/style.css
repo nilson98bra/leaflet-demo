@@ -1,21 +1,25 @@
-body{
+main{
 
-    background-color: aquamarine;
+height: 100vh; 
 
 }
 
-#map { height: 617px; }
+#map { height: 100%; }
 
 #time-slider-display{
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
     width: 100%;
     top: -70px;
     right: 0px;
-    z-index: 11000000000000000000000000000000000000000000;   
+    z-index: 1000;
+    font-weight: bold; 
+    color: aliceblue;  
 }
 
 #time-slider-display input[type="range"] {
     width:400px;
+    margin: 2px 10px 0 10px;
 }
